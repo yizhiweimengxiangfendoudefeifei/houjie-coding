@@ -11,3 +11,8 @@
 2.如果函数不会被实现，那就没有必要写参数名称  
 3.非成员函数重载+、-、*、/  
 4.重载右移运算符的写法见complex.cpp
+# STL  
+1.增加了容器的测试，包括array,vector,deque(双向开口),list,multiset,multimap,set,map  
+2.增加了迭代器的测试，测试迭代器的类型，其中包含函数重载、模板等知识点  
+3.增加了算法的测试，包含accumulate(累加)，for_each(对每一个元素做你所指定的事情),count,find_if,sort  
+4.增加了适配器bind
