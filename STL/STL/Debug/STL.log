@@ -1,0 +1,42 @@
+﻿  main.cpp
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\functional(753,27): warning C4244: “return”: 从“double”转换到“_Rx”，可能丢失数据
+          with
+          [
+              _Rx=int
+          ]
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\functional(1412): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<double(__cdecl *&)(double,double),_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=int,
+              _Ty=int,
+              _Fx=double (__cdecl *&)(double,double)
+          ]
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\functional(1414): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<double(__cdecl *&)(double,double),_Ty,_Ty>(_Fx,_Ty &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=int,
+              _Ty=int,
+              _Fx=double (__cdecl *&)(double,double)
+          ]
+D:\VS2019\VC\Tools\MSVC\14.29.30133\include\functional(1451): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Call_binder<_Ret,0,1,double(__cdecl *)(double,double),_Ty2,std::tuple<_Ty &&,_Ty &&>>(std::_Invoker_ret<_Rx,false>,std::integer_sequence<size_t,0,1>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=int,
+              _Ret=int,
+              _Ty2=std::tuple<std::_Ph<1>,std::_Ph<2>>,
+              _Ty=int,
+              _Cv_FD=double (__cdecl *)(double,double),
+              _Cv_tuple_TiD=std::tuple<std::_Ph<1>,std::_Ph<2>>,
+              _Untuple=std::tuple<int &&,int &&>
+          ]
+D:\GAO\coding\c++\STL\STL\array_vector.h(644): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Binder<int,double (__cdecl &)(double,double),const std::_Ph<1> &,const std::_Ph<2> &>::operator ()<int,int>(int &&,int &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=int
+          ]
+D:\GAO\coding\c++\STL\STL\array_vector.h(644): message : 查看对正在编译的函数 模板 实例化“_Rx std::_Binder<int,double (__cdecl &)(double,double),const std::_Ph<1> &,const std::_Ph<2> &>::operator ()<int,int>(int &&,int &&) noexcept(false)”的引用
+          with
+          [
+              _Rx=int
+          ]
+  STL.vcxproj -> D:\GAO\coding\c++\STL\Debug\STL.exe
